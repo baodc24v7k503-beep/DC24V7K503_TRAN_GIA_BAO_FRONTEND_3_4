@@ -25,8 +25,8 @@
         </div>
         <div class="p-1">
             <strong>Liên hệ yêu thích: &nbsp </strong>
-            <i v-if="contact.isFavorite" class="fa-solid fa-check"></i>
-            <i v-else class="fa-solid fa-times"></i>
+            <i v-if="contact.favorite" class="fa-solid fa-circle-check"></i>
+            <i v-else class="fa-solid fa-circle-xmark"></i>
         </div>
     </div>
 </template>
